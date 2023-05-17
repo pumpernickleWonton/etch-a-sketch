@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 25px;
+    align-items: center;
+}
+
+#reset-button {
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: coral;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    justify-content: center;
+    align-self: center;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+}
+
+.column {
+    flex: 1;
+    border: .01px solid black;
+}
+
+.filled {
+    background-color: black;
+}
